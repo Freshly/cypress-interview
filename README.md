@@ -1,6 +1,6 @@
 # Cypress Interview
 
-This provides a basic setup to interview prospective TA Engineers at Freshly.
+This provides a basic setup to interview prospective Test Automation Engineers at Freshly using the Cypress framework.
 
 Steps:
  - Install node
