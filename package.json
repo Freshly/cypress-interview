@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dapperDerek/cypress-interview.git"
+    "url": "https://github.com/Freshly/cypress-interview"
   },
-  "author": "",
+  "author": "Freshly - Victor Santana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dapperDerek/cypress-interview/issues"
+    "url": "https://github.com/Freshly/cypress-interview/issues"
   },
-  "homepage": "https://github.com/dapperDerek/cypress-interview#readme",
+  "homepage": "https://github.com/Freshly/cypress-interview#cypress-interview",
   "dependencies": {
     "cypress": "^6.6.0"
   }
