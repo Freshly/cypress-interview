@@ -1,6 +1,6 @@
 {
   "name": "cypress-interview",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "scripts": {
     "cy:open": "npx cypress open"
@@ -9,13 +9,13 @@
     "type": "git",
     "url": "https://github.com/Freshly/cypress-interview"
   },
-  "author": "Freshly - Victor Santana",
+  "author": "Freshly - Victor Santana, Jimmy Adames",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Freshly/cypress-interview/issues"
   },
   "homepage": "https://github.com/Freshly/cypress-interview#cypress-interview",
   "dependencies": {
-    "cypress": "^6.6.0"
+    "cypress": "^10.0.2"
   }
 }
