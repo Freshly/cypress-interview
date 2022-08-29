@@ -22,16 +22,16 @@ describe("Home Page - Freshly", () => {
     })
 
     it("then the get started section renders correctly", () => {
-      let header = "Chef cooked healthy meals delivered to you"
+      let header = "Balanced meals for busy lives."
 
-      cy.get(".home-form").within(() => {
-        cy.get("h1.home-page-section-title")
+      cy.get("#home-hero-section-variant").within(() => {
+        cy.get("h1.hero-text")
       })
       cy.get(".new-home-form").within(() => {
         cy.get("[data-name='Email']" ).type("test-interview@test.com")
         cy.get("[data-name='Postal']" ).type("10005")
       })
-      cy.get(".primary-blue-button").click()
+      cy.get("input[value='Get Started']").click()
     })
   })
 })
